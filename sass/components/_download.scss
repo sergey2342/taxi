@@ -1,0 +1,37 @@
+.download {
+    &-row {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &-col {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        img {
+            width: 395px;
+            height: 466px;
+        }
+    }
+    &-text {
+        margin-top: 40px;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    &-descr {
+        margin-top: 28px;
+        width: 366px;
+        color: #101010;
+        font-size: 18px;
+    }
+    &-img {
+        margin-top: 65px;
+        img {
+            cursor: pointer;
+            width: 210px;
+            height: 65px;
+            margin: 0 10px 0 10px;
+        }
+    }
+}

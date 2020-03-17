@@ -1,0 +1,82 @@
+.tariffs {
+    padding-bottom: 77px;
+    &-label {
+        text-align: center;
+        padding-top: 63px;
+        color: #000000;
+        font-size: 44px;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 1;
+        span {
+            color: #ffc61a;
+            font-size: 35px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    }
+    &-row {
+        margin-top: 133px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &-col {
+        width: 373px;
+        height: 424px;
+        background-color: #f5f4f2;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &-col:nth-child(2) {
+        background-color: #ffc61a;
+        .tariffs-coin {
+            color: #131313;
+        }
+        .tariffs-button {
+            background-color: #1b1b1b;
+            color: #fff;
+        }
+    }
+    &-img {
+        position: absolute;
+        top: -80px;
+    }
+    &-title {
+        margin-top: 120px;
+        color: #000000;
+        font-size: 30px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    &-descr {
+        text-align: center;
+        margin-top: 25px;
+        width: 80%;
+        color: #101010;
+        font-size: 18px;
+    }
+    &-coin {
+        margin-top: 25px;
+        color: #ffc61a;
+        font-size: 44px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    &-button {
+        cursor: pointer;
+        margin-top: 25px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 30px;
+        text-transform: uppercase;
+        width: 166px;
+        height: 50px;
+        background-color: #ffc61a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+    }
+}

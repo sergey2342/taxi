@@ -1,0 +1,68 @@
+.footer {
+    background: url(../img/footer-bg.png) center (center/cover) no-repeat;
+    &-row {
+        padding: 85px 0 50px 0;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &-col {
+        width: 340px;
+    }
+    &-label {
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    &-line {
+        margin-top: 38px;
+        width: 100%;
+        border-top: 8px solid #ffc61a;
+        border-radius: 5px;
+    }
+    &-descr {
+        margin-top: 45px;
+        color: #ffffff;
+        font-size: 18px;
+    }
+    &-icons {
+        margin-top: 40px;
+        font-size: 20px;
+        color: #ffc61a;
+        i {
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    }
+    &-user {
+        color: #ffc61a;
+        font-size: 20px;
+        margin-top: 32px;
+        cursor: pointer;
+        i {
+            margin-left: 30px;
+            color: #fff;
+            font-size: 30px;
+        }
+        .apple {
+            margin-left: 73px;
+        }
+    }
+    &-contacts {
+        margin-bottom: 30px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        i {
+            margin-right: 25px;
+        }
+    }
+    &-copyright {
+        color: #ffffff;
+        font-size: 14px;
+        padding-bottom: 20px;
+        text-align: center;
+        letter-spacing: 3.5px;
+    }
+}
