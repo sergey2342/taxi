@@ -2,13 +2,12 @@
     position: absolute;
     z-index: 10;
     width: 100%;
-    padding: 40px 120px 0 110px;
+    padding: 40px 80px 0 110px;
     &-nav {
         display: flex;
         align-items: center;
     }
     &-item-logo {
-        text-decoration: none;
         width: 50%;
         &__label {
             font-size: 40px;
