@@ -1,4 +1,10 @@
 $(document).ready(function(){
+	$(".buttonform").on("click", function (event) {
+		let id  = $('.order-form'),
+			top = $(id).offset().top;
+		$('body,html').animate({scrollTop: top}, 900);
+	});
+
 	$('.header-nav a').on('click', function() {
 		let scrollAnchor = $(this).attr('data-scroll'),
 			scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top;
